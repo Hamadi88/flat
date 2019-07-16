@@ -1,0 +1,286 @@
+body {
+
+background-color:#a4b0be;
+
+}
+
+
+
+ul{
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+	list-style:none;
+	text-decoration:none;
+	font-size:20px;	
+	margin:0;
+	padding:0;
+
+
+	}
+
+.entete{
+	z-index:10;
+	position:absolute;
+	width:100%;
+	top:0%;
+	left: 0;
+	background-color: #000000;
+}
+
+
+/*ul{
+	position:absolute;
+	height:auto;
+	right:0;
+	left:0;
+	width:100%;
+} */
+
+.fixed{
+position:fixed;
+top:0;
+
+
+}
+
+a {
+	color:white;
+	text-decoration: none;
+	font-size:30px;
+	font-family: 'Lekton', sans-serif;
+}
+
+#index{
+	position:absolute;
+	top:10%;
+	/*width:90%;*/
+	height:60vh;
+	/*right:20%;*/
+    /*height:70%;*/
+    width:100%;
+    overflow:hidden;
+	text-overflow:ellipsis;
+}
+	  
+.clique{
+	position:absolute;
+	right:20%;
+	/*top:40%;*/
+	height:5vh;
+	width:30vw;
+	cursor:pointer;
+	font-size:50px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight:500;
+
+}
+
+#simplonco{
+	position:absolute;
+	top:15%;
+	left:-100%;
+}
+
+.simplon{
+	/*width:25vw;*/
+	height:30vh;
+}
+
+
+
+.monpara{
+    text-align:justify;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	line-height:1.9em;
+	position: absolute;
+	left:10%;
+	top:10%;
+	height:60vh;
+	width:70vw;
+	display: none;
+	transition:.3s;
+	font-family: 'Lekton', sans-serif;
+	font-size:20px;
+	font-weight:200;
+}
+
+.visible{
+	display:block !important;
+	cursor:pointer;
+}
+
+.invisible{
+	display:none;
+}	
+
+
+.imgpunta{
+	width:30vw;
+	height:40vh;
+}
+
+#projet {
+
+	position:absolute;
+	top:60%;
+	left:7%;
+	height:70vh;
+	width:100%;
+	/*margin-bottom:0;*/
+
+}
+
+#punta {
+	position:absolute;
+	top:40%;
+	left:5%;
+	width:30vw;
+}
+
+#horloger {
+	position:absolute;
+	top:40%;
+	right:20%;
+	width:30vw;
+}
+
+.imghorloger{
+	width:30vw;
+	height:40vh;
+}
+
+#competence{
+		position:absolute;
+		left:10%;
+		top:130vh;
+		width:97%;
+		height:65vh;
+}
+
+#contact{
+	display:flex;
+	flex-direction:row;
+	align-items: center;
+	justify-content:space-around;
+	position:absolute;
+	top:200vh;
+	width:100%;
+	height:50vh;
+}
+
+.maphoto{
+	display:flex;
+	flex-direction:row;
+	width:100%;
+	height:65vh;
+}
+
+.myphoto{
+	position:absolute;
+	bottom:0%;
+	height:50vh;
+	width:45vw;
+}
+
+.logo{
+	position:absolute;
+	/*bottom:10%;*/
+	top:30%;
+	right:0%;
+	height:40vh;
+	width:40vw;
+}
+
+.logocompetence{
+	position:absolute;
+	top:5%;
+	right:20%;
+	width:30vw;
+	height:40vh;
+	margin-right:20px;
+}
+
+.facebook{
+	
+	
+	left:5%;
+	width:10vh;
+	height:5vw;
+}
+
+.linkedin{
+
+
+	width:10vh;
+	height:5vw;
+}
+
+.telephone{
+	
+	
+	left:25%;
+	width:10vh;
+	height:5vw;
+}	
+
+.mail{
+	
+	
+	right:10%;
+	width:10vh;
+	height:5vw;
+}	
+
+
+.soustitre1{
+	position:absolute;
+	top:7%;
+	left:35%;
+	font-size:60px;
+	font-family: 'Lekton', sans-serif;
+	font-weight:100;
+	
+}
+
+
+
+.soustitre2{
+	position:absolute;
+	top:2%;
+	left:35%;
+	font-size:60px;
+	font-family: 'Lekton', sans-serif;
+	
+}
+
+.soustitre3{
+	position:absolute;
+	left:45%;
+	top:2%;
+	font-size:60px;
+	font-family: 'Lekton', sans-serif;
+
+}
+
+
+
+li{
+	font-family:Trebuchet MS;
+	font-size:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
